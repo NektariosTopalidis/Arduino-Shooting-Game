@@ -1,0 +1,10 @@
+.enemy{
+    background-image: url('../../../assets/blue ghost.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    content: '';
+    transition: all 0.5s ease-in-out;
+}

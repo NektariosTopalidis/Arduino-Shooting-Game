@@ -1,0 +1,27 @@
+<div class="container">
+  @if(!gameRunning){
+    <div class="gameEnd">
+      <button class="playAgainBtn" (click)="restart()">PLAY AGAIN</button>
+    </div>
+  }
+  <div class="lives-and-kills">
+    <div class="lives">
+      @for (life of lives; track $index) {
+        @if (life) {
+          <div class="heartFull"></div>
+        }
+        @else {
+          <div class="heartEmpty"></div>
+        }
+      }
+    </div>
+    <div class="kill-count">
+      <h2>{{'Kill Count: ' + killCount}}</h2>
+    </div>
+  </div>
+  <div class="battleground">
+    <ng-template #bullets></ng-template>
+    <ng-template #enemies></ng-template>
+    <div class="player" #player></div>
+  </div>
+</div>

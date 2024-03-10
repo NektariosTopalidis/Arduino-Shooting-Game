@@ -1,0 +1,58 @@
+{
+  "hash": "fd06cbf8",
+  "configHash": "9ca19877",
+  "lockfileHash": "5fc31db5",
+  "browserHash": "2dd8311d",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "a3d4758b",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "cc46c5a2",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "4f7fea11",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "3759a441",
+      "needsInterop": false
+    },
+    "ngx-socket-io": {
+      "src": "../../../../../node_modules/ngx-socket-io/fesm2022/ngx-socket-io.mjs",
+      "file": "ngx-socket-io.js",
+      "fileHash": "3dc2fe64",
+      "needsInterop": false
+    },
+    "rxjs": {
+      "src": "../../../../../node_modules/rxjs/dist/esm5/index.js",
+      "file": "rxjs.js",
+      "fileHash": "94233db2",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-AO66ITZV": {
+      "file": "chunk-AO66ITZV.js"
+    },
+    "chunk-NYR4Q75C": {
+      "file": "chunk-NYR4Q75C.js"
+    },
+    "chunk-6H4P7KVT": {
+      "file": "chunk-6H4P7KVT.js"
+    },
+    "chunk-5NFNAN6B": {
+      "file": "chunk-5NFNAN6B.js"
+    }
+  }
+}
